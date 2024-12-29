@@ -31,7 +31,7 @@ export default function AddTodo() {
   );
 }
 
-function PlusIcon(props: any) {
+function PlusIcon(props: React.SVGAttributes<SVGSVGElement>) {
   return (
     <svg
       {...props}
